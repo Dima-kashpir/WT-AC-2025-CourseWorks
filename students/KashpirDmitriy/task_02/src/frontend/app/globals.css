@@ -1,22 +1,15 @@
-@import 'tailwindcss';
+@import url('tailwindcss');
 
-/* Базовая светлая тема */
 :root {
-  --background: #f1f5f9; /* светло-серый фон */
-  --foreground: #0f172a; /* почти чёрный текст */
-
-  --muted: #64748b; /* вторичный текст */
-  --border: #e2e8f0; /* границы/линии */
-  --card: #ffffff; /* карточки/блоки */
-
-  --primary: #2563eb; /* синий – основной цвет */
-  --primary-soft: #dbeafe; /* мягкий фон для состояний */
-
+  --background: #f1f5f9;
+  --foreground: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --card: #fff;
+  --primary: #2563eb;
+  --primary-soft: #dbeafe;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
@@ -26,13 +19,14 @@
   :root {
     --background: #020617;
     --foreground: #e5e7eb;
-
     --muted: #9ca3af;
     --border: #1f2937;
     --card: #020617;
-
     --primary: #3b82f6;
     --primary-soft: #1d4ed8;
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-primary: var(--primary);
   }
 }
 
